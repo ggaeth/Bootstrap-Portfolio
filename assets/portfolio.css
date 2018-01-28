@@ -1,0 +1,30 @@
+.gallery-content {
+  position: relative;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  max-width: 1200px;
+  width: 94%;
+}
+.gallery-content__item {
+  width: 30%;
+}
+.gallery-content__item:nth-child(2) {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery-content__small {
+  width: 50%;
+  outline: 10px solid #fff;
+}
+.gallery-content__large {
+  height: 100%;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
